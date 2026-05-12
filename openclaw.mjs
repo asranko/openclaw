@@ -8,8 +8,8 @@ import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-process.env.GATEWAY_CONTROLUI_ALLOWEDORIGINS = '["https://openclaw-cloud-6ske.onrender.com"]';
-process.env.GATEWAY_TRUSTED_PROXIES = '0.0.0.0/0';
+process.env.OPENCLAW_GATEWAY_CONTROLUI_ALLOWEDORIGINS = '["https://openclaw-cloud-6ske.onrender.com"]';
+process.env.OPENCLAW_GATEWAY_TRUSTEDPROXIES = '["0.0.0.0/0"]';
 const MIN_NODE_MAJOR = 22;
 const MIN_NODE_MINOR = 12;
 const MIN_NODE_VERSION = `${MIN_NODE_MAJOR}.${MIN_NODE_MINOR}`;
